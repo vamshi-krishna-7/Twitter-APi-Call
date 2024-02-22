@@ -1,0 +1,28 @@
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+     "username": "Vamshi Kri",
+     "password": "krish_567",
+     "name": "Vamshi",
+     "gender": "male"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application.json
+
+{
+   "username": "Vamshi Kri",
+   "password": "krish_567",
+}
+
+###
+
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer 
+
+###
+
